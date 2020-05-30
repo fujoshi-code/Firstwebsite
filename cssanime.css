@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+}
+
+
+  
+ .header {
+  background-image:url("https://images8.alphacoders.com/677/thumb-1920-677959.png") ;
+  
+  text-align: center;
+  color:#FFE4E1;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #17252A;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: darkgray;
+}
+
+ .gg-backspace {
+ box-sizing: border-box;
+ position: relative;
+ display: block;
+ width: 14px;
+ height: 14px;
+ transform: scale(var(--ggs,1));
+ border: 2px solid;
+ border-left: 0;
+ border-top-right-radius: 2px;
+ border-bottom-right-radius: 2px
+ }
+
+ .gg-backspace::after,
+ .gg-backspace::before {
+ content: "";
+ display: block;
+ box-sizing: border-box;
+ position: absolute
+ }
+
+ .gg-backspace::before {
+ background:
+ linear-gradient( to left,
+ currentColor 18px,transparent 0)
+ no-repeat center center/10px 2px;
+ border-right: 3px solid transparent;
+ box-shadow: inset 0 0 0 2px;
+ right: 2px;
+ bottom: 1px;
+ width: 8px;
+ height: 8px;
+ border-left: 3px solid transparent;
+ transform: rotate(45deg)
+ }
+
+ .gg-backspace::after {
+ width: 10px;
+ height: 10px;
+ border-top: 2px solid;
+ border-left: 2px solid;
+ border-top-left-radius: 1px;
+ transform: rotate(-45deg);
+ top: 0;
+ left: -5px
+ } 
+
+
+body{
+  color:white;
+   background-image: linear-gradient(to right top, #141112, #151214, #151415, #161517, #161618, #18191b, #1a1c1e, #1c1f21, #202527, #242a2c, #283031, #2d3636);
+   }
+img{height:600px;
+  width:400px;
+border:1px dotted grey;
+  
+  vertical-align:middle;
+}
+
+.btn{overflow:hide;}
+
+
+.description{background-image: linear-gradient(to right top, #000000, #070205, #0c040c, #0e0712, #0c0b18, #090e1a, #07111c, #04141d, #07161c, #0c181b, #11191a, #151a1a);
+  border-radius: 50%;
+  padding: 10px 50px;
+  color:lightgray;
+  
+}
+
+.episodes{background-image: linear-gradient(to right top, #000000, #070205, #0c040c, #0e0712, #0c0b18, #090e1a, #07111c, #04141d, #07161c, #0c181b, #11191a, #151a1a);
+  border-radius: 50%;
+  padding: 10px 50px;
+  color:lightgray;
+}
+
+.E3{background-image: linear-gradient(to right top, #000000, #070205, #0c040c, #0e0712, #0c0b18, #090e1a, #07111c, #04141d, #07161c, #0c181b, #11191a, #151a1a);
+  border-radius: 50%;
+  padding: 10px 50px;
+  color:lightgray;
+  
+}
+
+.E4{background-image: linear-gradient(to right top, #000000, #070205, #0c040c, #0e0712, #0c0b18, #090e1a, #07111c, #04141d, #07161c, #0c181b, #11191a, #151a1a);
+  border-radius: 50%;
+  padding: 10px 50px;
+  color:lightgray;
+  
+}
+
+
+.b5{background-image: linear-gradient(to right top, #000000, #070205, #0c040c, #0e0712, #0c0b18, #090e1a, #07111c, #04141d, #07161c, #0c181b, #11191a, #151a1a);
+  border-radius: 50%;
+ 
+    
+  padding: 10px 50px;
+  color:lightgray;
+  
+}
+
+
+.b6{background-image: linear-gradient(to right top, #000000, #070205, #0c040c, #0e0712, #0c0b18, #090e1a, #07111c, #04141d, #07161c, #0c181b, #11191a, #151a1a);
+  border-radius: 50%;
+ 
+    
+  padding: 10px 50px;
+  color:lightgray;
+  
+}
+
+.b7{background-image: linear-gradient(to right top, #000000, #070205, #0c040c, #0e0712, #0c0b18, #090e1a, #07111c, #04141d, #07161c, #0c181b, #11191a, #151a1a);
+  border-radius: 50%;
+ 
+    
+  padding: 10px 50px;
+  color:lightgray;
+  
+}
+
+
+.b8{background-image: linear-gradient(to right top, #000000, #070205, #0c040c, #0e0712, #0c0b18, #090e1a, #07111c, #04141d, #07161c, #0c181b, #11191a, #151a1a);
+  border-radius: 50%;
+ 
+    
+  padding: 10px 50px;
+  color:lightgray;
+  
+}
+
+
+.b9{background-image: linear-gradient(to right top, #000000, #070205, #0c040c, #0e0712, #0c0b18, #090e1a, #07111c, #04141d, #07161c, #0c181b, #11191a, #151a1a);
+  border-radius: 50%;
+ 
+    
+  padding: 10px 50px;
+  color:lightgray;
+  
+}
+
+.b10{background-image: linear-gradient(to right top, #000000, #070205, #0c040c, #0e0712, #0c0b18, #090e1a, #07111c, #04141d, #07161c, #0c181b, #11191a, #151a1a);
+  border-radius: 50%;
+ 
+    
+  padding: 10px 50px;
+  color:lightgray;
+  
+  
+}
+
+
+
+.b1{border:none ;
+  
+  background-image: linear-gradient(to right top, #141112, #151214, #151415, #161517, #161618, #18191b, #1a1c1e, #1c1f21, #202527, #242a2c, #283031, #2d3636);
+  color:white;
+  width: 200px;
+  height:100px;
+}
+   
+.b2{border:none ;
+  
+  background-image: linear-gradient(to right top, #141112, #151214, #151415, #161517, #161618, #18191b, #1a1c1e, #1c1f21, #202527, #242a2c, #283031, #2d3636);
+  color:white;
+  width: 200px;
+  height:100px;
+}
+
+.b3{border:none;
+  
+  background-image: linear-gradient(to right top, #141112, #151214, #151415, #161517, #161618, #18191b, #1a1c1e, #1c1f21, #202527, #242a2c, #283031, #2d3636);
+  color:white;
+  width: 200px;
+  height:100px;
+}
+
+.b4{border:none ;
+  
+  background-image: linear-gradient(to right top, #141112, #151214, #151415, #161517, #161618, #18191b, #1a1c1e, #1c1f21, #202527, #242a2c, #283031, #2d3636);
+  font-type:Arial;
+  color:white;
+  width: 200px;
+  height:100px;
+}
+
+p{padding-top:10px;
+color:gray;
+  font-size:25px;
+ 
+  opacity:0.75;
+  
+  position: absolute;
+  top: 345px;
+  left: 450px;
+}
+
+
+.open{border: 2px dotted gray;
+  text-align: center;
+margin: 0 auto;
+display: block;
+
+}
+
+h4{color:gray;
+text-align:center;}
+
+h5{color:#f1f1f1;
+opacity:0.2;
+text-align:center;
+}
+
+
+.tired{color:pink;}
+
+h6{text-align:center;
+  color:white;
+  opacity:0.5
+}
+
+footer{background-image: linear-gradient(to right top, #292b2e, #37383f, #48464f, #5b535f, #71606d);
+}
+  
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+ margin: 50px 70px;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+ 

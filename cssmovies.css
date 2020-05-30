@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image:url("https://media.istockphoto.com/illustrations/light-tones-watercolor-background-illustration-id487358756")
+}
+
+.header {
+  background-image:url("https://images8.alphacoders.com/677/thumb-1920-677959.png") ;
+  
+  text-align: center;
+  color:#FFE4E1;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #17252A;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: darkgray;
+}
+
+ .gg-backspace {
+ box-sizing: border-box;
+ position: relative;
+ display: block;
+ width: 14px;
+ height: 14px;
+ transform: scale(var(--ggs,1));
+ border: 2px solid;
+ border-left: 0;
+ border-top-right-radius: 2px;
+ border-bottom-right-radius: 2px
+ }
+
+ .gg-backspace::after,
+ .gg-backspace::before {
+ content: "";
+ display: block;
+ box-sizing: border-box;
+ position: absolute
+ }
+
+ .gg-backspace::before {
+ background:
+ linear-gradient( to left,
+ currentColor 18px,transparent 0)
+ no-repeat center center/10px 2px;
+ border-right: 3px solid transparent;
+ box-shadow: inset 0 0 0 2px;
+ right: 2px;
+ bottom: 1px;
+ width: 8px;
+ height: 8px;
+ border-left: 3px solid transparent;
+ transform: rotate(45deg)
+ }
+
+ .gg-backspace::after {
+ width: 10px;
+ height: 10px;
+ border-top: 2px solid;
+ border-left: 2px solid;
+ border-top-left-radius: 1px;
+ transform: rotate(-45deg);
+ top: 0;
+ left: -5px
+ } 
+
+.dead{text-align:center;
+  color:white;
+  opacity:0.5;
+}
+
+h1{text-align:center;
+  
+  font-size:40px;
+}
+
+.god{
+  border-top: 1px solid #F5A1EC  ;
+  border-bottom: 1px solid #F5A1EC ;
+  bottom-left: 10px solid red;
+  font-size:20px;
+text-align:left;
+margin-left:100px
+}
+
+
+.man{height:400px;
+  width:1000px;
+border:1px dotted grey;
+margin-left:200px ;
+  vertical-align:left;
+}
+
+
+
+.great{height:400px;
+  width:500px;
+border:None;
+  margin:500px;
+  vertical-align:right;
+  position: absolute;
+  top: 1100px;
+  left: 300px;
+}
+
+
+
+ol{padding-top:0px;
+color:gray;
+  font-size:40px;
+ 
+  opacity:0.75;
+  
+  position: absolute;
+  top: 1500px;
+  right: 1000px;}
+
+h4{font-size:50px;
+margin:10px;}
